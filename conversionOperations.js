@@ -7,10 +7,10 @@
 // console.log(typeof valueInNumer);
 // console.log(valueInNumer);
 
-// let isLoggedIn = "Shvuam";
+let isLoggedIn = "Shvuam";
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn);
-// console.log(booleanIsLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
 
 // let someNumber = 33;
 
@@ -20,8 +20,8 @@
 
 // ****************** Operations ******************//
 
-let value = 3;
-let negValue = -value;
+// let value = 3;
+// let negValue = -value;
 
 // console.log(negValue);
 
@@ -50,7 +50,13 @@ let negValue = -value;
 
 // num1 = num2 = num3 = 2 + 2;
 
-let gameCounter = 100;
+// let gameCounter = 100;
 
-gameCounter++; //+gameCounter
-console.log(gameCounter);
+// gameCounter++; //+gameCounter
+// console.log(gameCounter);
+// let x = 3;
+// const y = x++;
+
+// console.log(`x:${x}, y:${y}`);
+
+// console.log(`x: ${x}`);
