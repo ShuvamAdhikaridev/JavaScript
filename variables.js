@@ -13,3 +13,7 @@ accountCity = "Chabahil";
 
 // console.log(accountId);
 console.table([accountId, accountEmail, accountCity, accountPassword]);
+
+let accountState;
+
+console.log(accountState);
