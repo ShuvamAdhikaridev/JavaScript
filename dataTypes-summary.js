@@ -31,3 +31,28 @@
 // };
 
 // console.log(typeof outsideTemprature);
+
+/* Stack & Heap */
+
+// Stack => Primitive Heap => Non Primitive
+
+// let myYoutubeNAme = "Shuvam";
+
+// let anotherName = myYoutubeNAme;
+
+// anotherName = "HowToCode";
+
+// console.log(anotherName);
+// console.log(myYoutubeNAme);
+
+let userOne = {
+  email: "shuvamlim234@gmail.com",
+  esewa: 9742826821,
+};
+
+let userTwo = userOne;
+
+userTwo.email = "Hello@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
