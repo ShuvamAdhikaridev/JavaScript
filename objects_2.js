@@ -25,7 +25,7 @@ const obj2 = { 3: "a", 4: "b" };
 const obj3 = { ...obj1, ...obj2 };
 
 // console.log(obj1 === obj3);
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
   {
@@ -34,11 +34,37 @@ const users = [
   },
 ];
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));
 
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty(`name`));
+// console.log(tinderUser.hasOwnProperty(`name`));
+
+/******************** Destructuring ***********************/
+
+const course = {
+  courseName: "JavaScript",
+  price: 10000,
+  courseInstructor: "Harris",
+};
+
+// course.courseInstructor
+
+const { courseInstructor: sir } = course;
+
+console.log(sir);
+
+// const navbar = () => {};
+
+// navbar((company = "Shuvam"));
+
+// {
+//     "name": "Shuvam",
+//     "coursename": "Python",
+//    " price": "free"
+// }
+
+// [{}, {}];
