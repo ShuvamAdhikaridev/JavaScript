@@ -3,7 +3,11 @@
 const myArr = [0, 1, 2, 3, 4, 5];
 const myHeros = ["SuperMan, Spiderman", "Batman"];
 
-const myArr2 = new Array(1, 2, 3, 4);
+const heros = myHeros.unshift(0);
+console.log(heros);
+console.log(myHeros);
+
+// const myArr2 = new Array(1, 2, 3, 4);
 
 // console.log(myArray[0]);
 
@@ -27,11 +31,11 @@ const myArr2 = new Array(1, 2, 3, 4);
 
 //slice, splice
 
-console.log("A", myArr);
-const myn1 = myArr.slice(1, 3);
-console.log(myn1);
-console.log("B", myArr);
+// console.log("A", myArr);
+// const myn1 = myArr.slice(1, 3);
+// console.log(myn1);
+// console.log("B", myArr);
 
-const myn2 = myArr.splice(1, 3);
-console.log("C", myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1, 3);
+// console.log("C", myArr);
+// console.log(myn2);
