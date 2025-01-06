@@ -17,9 +17,11 @@ let myCreatedDate = new Date("01-14-2024");
 // console.log(Math.floor(Date.now() / 1000));
 
 let newDate = new Date();
-console.log(newDate);
-console.log(newDate.getDay());
+// console.log(newDate);
+// console.log(newDate.getDay());
 
 newDate.toLocaleString(`default`, {
   weekday: `long`,
 });
+
+// console.log(2 + 1 + "3");
