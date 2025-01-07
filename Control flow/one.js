@@ -30,14 +30,24 @@ const balance = 1000;
 //   console.log(`Balannce is less than 1200`);
 // }
 
-const userLoggedIn = true;
-const debitCard = true;
-const loggedInFrommGoogle = false;
-const loggedInFromEmail = true;
+// const userLoggedIn = true;
+// const debitCard = true;
+// const loggedInFrommGoogle = false;
+// const loggedInFromEmail = true;
 
-if (userLoggedIn && debitCard) {
-  console.log(`User is allowed to Shop`);
-}
-if (loggedInFromEmail || loggedInFrommGoogle) {
-  console.log(`User Logged In`);
-}
+// if (userLoggedIn && debitCard) {
+//   console.log(`User is allowed to Shop`);
+// }
+// if (loggedInFromEmail || loggedInFrommGoogle) {
+//   console.log(`User Logged In`);
+// }
+
+let val1;
+
+// val1 = 5 ?? 10;
+
+// val1 = null ?? 10;
+
+val1 = undefined ?? 15;
+
+console.log(val1);
