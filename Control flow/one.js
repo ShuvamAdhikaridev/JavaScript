@@ -50,4 +50,12 @@ let val1;
 
 val1 = undefined ?? 15;
 
-console.log(val1);
+// console.log(val1);
+
+//? Ternary Operator
+
+// condition ? true : false;
+
+// const iceTeaPrice = 100;
+
+// iceTeaPrice >= 90 ? console.log("Less Than 90") : console.log(`More than 90`);
