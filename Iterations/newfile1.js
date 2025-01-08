@@ -40,8 +40,3 @@ for (let i = 0; i <= 20; i++) {
   }
   //   console.log(`valuee of i is: ${i}`);
 }
-
-for (let i = `*`; i < 8; i++) {
-  const element = i;
-  console.log(element);
-}
