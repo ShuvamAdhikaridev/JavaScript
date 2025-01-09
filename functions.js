@@ -46,9 +46,9 @@ const user = {
 };
 
 function handleObject(anyobject) {
-  console.log(
-    `User name is ${anyobject.username} and price is ${anyobject.price}`
-  );
+  // console.log(
+  // `User name is ${anyobject.username} and price is ${anyobject.price}`
+  // );
 }
 
 // handleObject(user);
@@ -63,4 +63,12 @@ const myArr = [200, 400, 100, 600];
 function returnSecondValue(getarray) {
   return getarray[1];
 }
-console.log(returnSecondValue(myArr));
+// console.log(returnSecondValue(myArr));
+
+function createHelloWorld() {
+  return function hello() {
+    console.log("Hello World");
+  };
+}
+
+createHelloWorld();
